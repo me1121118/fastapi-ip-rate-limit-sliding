@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fastapi-ip-rate-limit-sliding"
+version = "0.1.0"
+description = "High-precision sliding-window rate limiter dependency for FastAPI with automatic IP extraction"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    { name = "me1121118" }
+]
+keywords = ["fastapi", "python", "utility", "tools"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["fastapi>=0.100.0"]
+
+[project.urls]
+Homepage = "https://github.com/me1121118/fastapi-ip-rate-limit-sliding"
+Repository = "https://github.com/me1121118/fastapi-ip-rate-limit-sliding"
